@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pose-Rochelle-Icon-icon" translatesAutoresizingMaskIntoConstraints="NO" id="YhM-k9-sw0">
-                                <rect key="frame" x="155" y="301" width="64" height="64"/>
+                                <rect key="frame" x="155" y="311.5" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="Edm-76-fZT"/>
                                     <constraint firstAttribute="width" constant="64" id="sLh-Hb-zz1"/>
@@ -28,8 +28,8 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="YhM-k9-sw0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="281" id="il0-eG-1kQ"/>
-                            <constraint firstItem="YhM-k9-sw0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="155" id="nUv-uy-E74"/>
+                            <constraint firstItem="YhM-k9-sw0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="buz-Ml-e7J"/>
+                            <constraint firstItem="YhM-k9-sw0" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="fXk-jM-M01"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
