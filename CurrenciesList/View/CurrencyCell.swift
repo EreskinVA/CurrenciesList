@@ -16,3 +16,7 @@ class CurrencyCell: UITableViewCell {
     @IBOutlet weak var numberArray: UILabel!
     
 }
+
+class TitleCell: UITableViewCell {
+    
+}

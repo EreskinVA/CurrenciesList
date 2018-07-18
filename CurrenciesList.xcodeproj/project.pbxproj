@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BD2556F20FFAD5200B09383 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD2556E20FFAD5200B09383 /* Currency.swift */; };
 		2BD3DF7A20FFA79A002B4EA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3DF7920FFA79A002B4EA6 /* AppDelegate.swift */; };
 		2BD3DF7C20FFA79A002B4EA6 /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3DF7B20FFA79A002B4EA6 /* CurrencyViewController.swift */; };
 		2BD3DF7F20FFA79A002B4EA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD3DF7D20FFA79A002B4EA6 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BD2556E20FFAD5200B09383 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		2BD3DF7620FFA79A002B4EA6 /* CurrenciesList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrenciesList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD3DF7920FFA79A002B4EA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BD3DF7B20FFA79A002B4EA6 /* CurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BD2557020FFAD7900B09383 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2BD2556E20FFAD5200B09383 /* Currency.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2BD2557120FFAD8A00B09383 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BD3DF7D20FFA79A002B4EA6 /* Main.storyboard */,
+				2BD3DF8220FFA79B002B4EA6 /* LaunchScreen.storyboard */,
+				2BD3DF8B20FFAA84002B4EA6 /* CurrencyCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2BD2557220FFADB300B09383 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2BD3DF7B20FFA79A002B4EA6 /* CurrencyViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2BD2557320FFADE300B09383 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				2BD3DF8020FFA79B002B4EA6 /* Assets.xcassets */,
+				2BD3DF8520FFA79B002B4EA6 /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
 		2BD3DF6D20FFA799002B4EA6 = {
 			isa = PBXGroup;
 			children = (
@@ -57,12 +94,10 @@
 			isa = PBXGroup;
 			children = (
 				2BD3DF7920FFA79A002B4EA6 /* AppDelegate.swift */,
-				2BD3DF7B20FFA79A002B4EA6 /* CurrencyViewController.swift */,
-				2BD3DF7D20FFA79A002B4EA6 /* Main.storyboard */,
-				2BD3DF8020FFA79B002B4EA6 /* Assets.xcassets */,
-				2BD3DF8220FFA79B002B4EA6 /* LaunchScreen.storyboard */,
-				2BD3DF8520FFA79B002B4EA6 /* Info.plist */,
-				2BD3DF8B20FFAA84002B4EA6 /* CurrencyCell.swift */,
+				2BD2557020FFAD7900B09383 /* Model */,
+				2BD2557120FFAD8A00B09383 /* View */,
+				2BD2557220FFADB300B09383 /* Controller */,
+				2BD2557320FFADE300B09383 /* Supporting files */,
 			);
 			path = CurrenciesList;
 			sourceTree = "<group>";
@@ -138,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BD2556F20FFAD5200B09383 /* Currency.swift in Sources */,
 				2BD3DF8C20FFAA84002B4EA6 /* CurrencyCell.swift in Sources */,
 				2BD3DF7C20FFA79A002B4EA6 /* CurrencyViewController.swift in Sources */,
 				2BD3DF7A20FFA79A002B4EA6 /* AppDelegate.swift in Sources */,
@@ -286,7 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FE5WRLEXRE;
-				INFOPLIST_FILE = CurrenciesList/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CurrenciesList/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +340,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FE5WRLEXRE;
-				INFOPLIST_FILE = CurrenciesList/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CurrenciesList/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
